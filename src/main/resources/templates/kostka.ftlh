@@ -1,3 +1,4 @@
+[#ftl]
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -13,9 +14,9 @@
 <body>
 <div>
     <div>
-        <img class="kostka" src="/images/kostka-1.svg"/>
+        <img class="kostka" src="/images/kostka-${hozeneCislo}.svg"/>
     </div>
-    <div>Padlo číslo: <span>1</span></div>
+    <div>Padlo číslo: <span>${hozeneCislo}</span></div>
 </div>
 </body>
 </html>
