@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+.kostka {
+    width: 10vw;
+}
+
+div {
+    font-size: 42px;
+}
+
+span {
+    font-weight: bold;
+}
